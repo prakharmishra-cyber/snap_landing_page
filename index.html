@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="brand">snap</div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <div class="nav_options">
+        <div class="nav_features f">
+          <div class="big_nav_drop1">
+            <div>Features</div>
+            <div>
+              <img
+                class="drops f1"
+                src="/images/icon-arrow-down.svg"
+                alt="arrow_down"
+              />
+            </div>
+          </div>
+
+          <div class="big_suboptions make_hidden">
+            <div class="wrapper">
+              <img src="/images/icon-todo.svg" alt="todo" />
+              <div class="describe">Todo List</div>
+            </div>
+
+            <div class="wrapper">
+              <img src="/images/icon-calendar.svg" alt="todo" />
+              <div class="describe">Calender</div>
+            </div>
+
+            <div class="wrapper">
+              <img src="/images/icon-reminders.svg" alt="todo" />
+              <div class="describe">Reminders</div>
+            </div>
+
+            <div class="wrapper">
+              <img src="/images/icon-planning.svg" alt="todo" />
+              <div class="describe">Planning</div>
+            </div>
+          </div>
+        </div>
+        <div class="nav_company f">
+          <div class="big_nav_drop2">
+            <div>Company</div>
+            <div>
+              <img
+                class="drops f2"
+                src="/images/icon-arrow-down.svg"
+                alt="arrow_down"
+              />
+            </div>
+
+            <div class="big_suboptions2 make_hidden">
+              <div class="wrapper">
+                <div class="describe">History</div>
+              </div>
+
+              <div class="wrapper">
+                <div class="describe">Our Team</div>
+              </div>
+
+              <div class="wrapper">
+                <div class="describe">Blog</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav_careers f">Careers</div>
+        <div class="nav_about f">About</div>
+      </div>
+
+      <div class="auths">
+        <div class="nav_login">Login</div>
+        <div class="nav_register">Register</div>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <img class="hero_image" src="/images/image-hero-mobile.png" alt="" />
+      <div class="hero_data_big">
+        <div class="hero_title">
+          Make <span class="newline"></span> remote work
+        </div>
+        <div class="hero_data">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </div>
+
+        <div class="learn">Learn more</div>
+
+        <div class="logos">
+          <img
+            class="logos_img"
+            width="70px"
+            height="14px"
+            src="/images/client-databiz.svg"
+            alt="databiz"
+          />
+          <img
+            class="logos_img"
+            width="50px"
+            height="24px"
+            src="/images/client-audiophile.svg"
+            alt="audio_phile"
+          />
+          <img
+            class="logos_img"
+            width="70px"
+            height="18px"
+            src="/images/client-meet.svg"
+            alt="meet"
+          />
+          <img
+            class="logos_img"
+            width="70px"
+            height="24px"
+            src="/images/client-maker.svg"
+            alt="maker"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar make_hidden">
+      <div class="cross">
+        <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#151515" fill-rule="evenodd">
+            <path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z" />
+            <path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z" />
+          </g>
+        </svg>
+      </div>
+      <div class="options">
+        <div class="Features">
+          <div class="make_good d">
+            <div>Feature</div>
+            <div>
+              <img
+                class="feature_control"
+                src="/images/icon-arrow-down.svg"
+                alt="arrow_up"
+              />
+            </div>
+          </div>
+
+          <ul class="make_hidden_collapse">
+            <li>
+              <div class="make_good">
+                <div><img src="/images/icon-todo.svg" alt="todo_icon" /></div>
+                <div>Todo List</div>
+              </div>
+            </li>
+
+            <li>
+              <div class="make_good">
+                <div>
+                  <img src="/images/icon-calendar.svg" alt="calender_icon" />
+                </div>
+                <div>Calender</div>
+              </div>
+            </li>
+
+            <li>
+              <div class="make_good">
+                <div>
+                  <img src="/images/icon-reminders.svg" alt="reminders_icon" />
+                </div>
+                <div>Reminders</div>
+              </div>
+            </li>
+
+            <li>
+              <div class="make_good">
+                <div>
+                  <img src="/images/icon-planning.svg" alt="Planning_icon" />
+                </div>
+                <div>Planning</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="Company">
+          <div class="make_good dd">
+            <div>Company</div>
+            <div>
+              <img
+                class="feature_controll"
+                src="/images/icon-arrow-down.svg"
+                alt="arrow_up"
+              />
+            </div>
+          </div>
+
+          <ul class="make_hidden_collapse ull">
+            <li>
+              <div class="make_good">
+                <div>History</div>
+              </div>
+            </li>
+
+            <li>
+              <div class="make_good">
+                <div>Our Team</div>
+              </div>
+            </li>
+
+            <li>
+              <div class="make_good">
+                <div>Blog</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="Careers">Careers</div>
+        <div class="About">About</div>
+
+        <div class="Login">Login</div>
+
+        <div class="Register">Register</div>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
